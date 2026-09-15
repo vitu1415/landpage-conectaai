@@ -60,12 +60,12 @@ export default function Hero() {
 
           <div className="hero-stats animate-on-scroll">
             <div className="stat">
-              <span className="stat-number">500+</span>
+              <span className="stat-number">100+</span>
               <span className="stat-label">pessoas na fila</span>
             </div>
             <div className="stat-divider"></div>
             <div className="stat">
-              <span className="stat-number">12</span>
+              <span className="stat-number">10</span>
               <span className="stat-label">eventos confirmados</span>
             </div>
           </div>
