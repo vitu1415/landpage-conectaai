@@ -1,0 +1,275 @@
+.solution-section {
+  padding: 100px 0;
+  background: white;
+}
+
+.solution-highlight {
+  background: var(--gradiente-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.solution-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 48px 0;
+  flex-wrap: wrap;
+}
+
+.flow-step {
+  text-align: center;
+  padding: 24px;
+  background: var(--fundo-section);
+  border-radius: 20px;
+  min-width: 200px;
+  flex: 1;
+  max-width: 260px;
+}
+
+.flow-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--gradiente-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+
+.flow-icon span {
+  color: white;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.flow-step h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.flow-step p {
+  font-size: 0.85rem;
+  color: var(--texto-secundario);
+}
+
+.flow-arrow {
+  color: var(--turquesa);
+  animation: float 2s ease-in-out infinite;
+}
+
+/* Mockup */
+.solution-mockup {
+  margin-top: 24px;
+}
+
+.mockup-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mockup-screen {
+  display: grid;
+  grid-template-columns: 160px 1fr 220px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f1f5f9;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+.mockup-sidebar {
+  padding: 24px 16px;
+  border-right: 1px solid #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mockup-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--texto-secundario);
+  cursor: default;
+  transition: all 0.2s;
+}
+
+.mockup-nav-item.active {
+  background: rgba(109, 62, 245, 0.06);
+  color: var(--roxo);
+  font-weight: 600;
+}
+
+.nav-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e2e8f0;
+}
+
+.mockup-nav-item.active .nav-dot {
+  background: var(--roxo);
+}
+
+.mockup-main {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mockup-post {
+  background: var(--fundo-section);
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.mockup-post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.mockup-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--gradiente-1);
+  flex-shrink: 0;
+}
+
+.mockup-avatar.avatar-2 {
+  background: var(--gradiente-2);
+}
+
+.mockup-post-header strong {
+  font-size: 0.9rem;
+  display: block;
+}
+
+.mockup-post-header span {
+  font-size: 0.75rem;
+  color: var(--texto-terciario);
+}
+
+.mockup-post p {
+  font-size: 0.88rem;
+  color: var(--texto-secundario);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.mockup-post-tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tag {
+  background: rgba(109, 62, 245, 0.06);
+  color: var(--roxo);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.mockup-people-panel {
+  padding: 24px 16px;
+  border-left: 1px solid #f1f5f9;
+}
+
+.mockup-people-panel h5 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--texto-terciario);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+}
+
+.mockup-person {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.person-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--gradiente-3);
+  flex-shrink: 0;
+}
+
+.person-avatar.avatar-2 {
+  background: var(--gradiente-2);
+}
+
+.person-avatar.avatar-3 {
+  background: linear-gradient(135deg, #22c55e, #16c6d4);
+}
+
+.mockup-person strong {
+  font-size: 0.85rem;
+  display: block;
+}
+
+.mockup-person span {
+  font-size: 0.75rem;
+  color: var(--turquesa);
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .mockup-screen {
+    grid-template-columns: 1fr;
+  }
+
+  .mockup-sidebar {
+    flex-direction: row;
+    overflow-x: auto;
+    border-right: none;
+    border-bottom: 1px solid #f1f5f9;
+    padding: 12px;
+  }
+
+  .mockup-nav-item {
+    white-space: nowrap;
+  }
+
+  .mockup-people-panel {
+    border-left: none;
+    border-top: 1px solid #f1f5f9;
+  }
+}
+
+@media (max-width: 560px) {
+  .solution-section {
+    padding: 70px 0;
+  }
+
+  .solution-flow {
+    flex-direction: column;
+  }
+
+  .flow-arrow {
+    transform: rotate(90deg);
+  }
+
+  .flow-step {
+    max-width: 100%;
+    width: 100%;
+  }
+}

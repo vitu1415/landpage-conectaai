@@ -1,0 +1,103 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.06);
+  padding: 12px 0;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-conecta {
+  color: var(--roxo);
+}
+
+.logo-ai {
+  color: var(--turquesa);
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbar-links a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--texto-secundario);
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  color: var(--roxo);
+}
+
+.navbar-cta {
+  background: var(--gradiente-1);
+  color: white !important;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-weight: 600 !important;
+  transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.navbar-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(22, 198, 212, 0.35);
+}
+
+.navbar-toggle {
+  display: none;
+  background: none;
+  color: var(--texto-principal);
+  padding: 8px;
+}
+
+@media (max-width: 900px) {
+  .navbar-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    background: white;
+    flex-direction: column;
+    padding: 80px 32px 32px;
+    gap: 24px;
+    box-shadow: -4px 0 24px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    align-items: flex-start;
+  }
+
+  .navbar-links.open {
+    right: 0;
+  }
+
+  .navbar-toggle {
+    display: flex;
+    z-index: 10;
+  }
+}

@@ -1,0 +1,235 @@
+.admin-page {
+  min-height: 100vh;
+  background: #0f0f23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+/* Login */
+.admin-login {
+  background: white;
+  border-radius: 20px;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(109, 62, 245, 0.1);
+  color: var(--roxo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+.admin-login h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.admin-login p {
+  color: var(--texto-secundario);
+  font-size: 0.9rem;
+  margin-bottom: 28px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 14px 20px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.login-input:focus {
+  border-color: var(--roxo);
+}
+
+.login-error {
+  display: block;
+  color: #ef4444;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 14px;
+  background: var(--gradiente-1);
+  color: white;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.login-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(22, 198, 212, 0.4);
+}
+
+/* Dashboard */
+.admin-dashboard {
+  width: 100%;
+  max-width: 900px;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.admin-header h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.admin-count {
+  color: var(--turquesa);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.btn-danger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  background: rgba(239, 68, 68, 0.15);
+  color: #fca5a5;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: inherit;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  transition: all 0.2s;
+}
+
+.btn-danger:hover {
+  background: rgba(239, 68, 68, 0.25);
+}
+
+/* Table */
+.admin-table-wrapper {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.admin-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 64px 24px;
+  color: var(--texto-terciario);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th {
+  text-align: left;
+  padding: 14px 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--texto-terciario);
+  background: var(--fundo-section);
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.admin-table td {
+  padding: 14px 20px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #f1f5f9;
+  color: var(--texto-principal);
+}
+
+.admin-table tr:last-child td {
+  border-bottom: none;
+}
+
+.admin-table tr:hover td {
+  background: #f8fafc;
+}
+
+.td-index {
+  color: var(--texto-terciario);
+  font-weight: 600;
+  width: 50px;
+}
+
+.td-email {
+  font-weight: 600;
+  color: var(--roxo);
+}
+
+@media (max-width: 600px) {
+  .admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .admin-actions {
+    width: 100%;
+  }
+
+  .btn-secondary, .btn-danger {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .admin-table th,
+  .admin-table td {
+    padding: 10px 12px;
+    font-size: 0.8rem;
+  }
+}

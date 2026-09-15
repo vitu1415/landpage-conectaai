@@ -1,0 +1,80 @@
+.ecosystem {
+  padding: 100px 0;
+  background: white;
+}
+
+.eco-highlight {
+  background: var(--gradiente-hero);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.eco-timeline {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  position: relative;
+}
+
+.eco-phase {
+  text-align: center;
+  padding: 36px 24px;
+  background: var(--fundo-section);
+  border-radius: 20px;
+  border: 1px solid #f1f5f9;
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.eco-phase:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+}
+
+.eco-phase-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+
+.eco-phase-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.eco-phase h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.eco-phase p {
+  font-size: 0.9rem;
+  color: var(--texto-secundario);
+  line-height: 1.6;
+}
+
+.eco-connector {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .eco-timeline {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .ecosystem {
+    padding: 70px 0;
+  }
+}
