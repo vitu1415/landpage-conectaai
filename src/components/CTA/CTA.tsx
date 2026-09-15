@@ -104,10 +104,7 @@ export default function CTA() {
           )}
 
           <p className="cta-note">
-            {count > 0
-              ? `${count} pessoa${count > 1 ? 's' : ''} ja na fila. `
-              : ''}
-            Sem spam. Apenas novidades sobre o lancamento.
+            Vamos enviar apenas novidades sobre o lancamento do ConectaAi.
           </p>
         </div>
       </div>
