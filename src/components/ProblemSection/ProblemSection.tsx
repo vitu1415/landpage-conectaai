@@ -27,16 +27,16 @@ export default function ProblemSection() {
     <section className="problem-section" ref={sectionRef}>
       <div className="container">
         <h2 className="section-title animate-on-scroll">
-          Voce ja foi a um evento querendo conhecer gente nova...
+          Você já foi a um evento querendo conhecer gente nova...
           <br />
           <span className="problem-highlight">
-            mas acabou so com quem ja conhecia?
+            mas acabou só com quem já conhecia?
           </span>
         </h2>
 
         <p className="section-subtitle animate-on-scroll">
-          Eventos reunem milhares de pessoas. Mas encontrar quem realmente combina
-          com voce nem sempre acontece.
+          Eventos reúnem milhares de pessoas. Mas encontrar quem realmente combina
+          com você nem sempre acontece.
         </p>
 
         <div className="problem-cards">
@@ -46,7 +46,7 @@ export default function ProblemSection() {
             </div>
             <h3>Grupos fechados</h3>
             <p>
-              Voce vai com amigos e acaba nao conhecendo ninguem novo durante
+              Você vai com amigos e acaba não conhecendo ninguém novo durante
               o evento inteiro.
             </p>
           </div>
@@ -57,7 +57,7 @@ export default function ProblemSection() {
             </div>
             <h3>Dificuldade para puxar assunto</h3>
             <p>
-              Tem pessoas interessantes por perto, mas nao sabe como iniciar
+              Tem pessoas interessantes por perto, mas não sabe como iniciar
               uma conversa.
             </p>
           </div>
@@ -68,7 +68,7 @@ export default function ProblemSection() {
             </div>
             <h3>Interesses em comum</h3>
             <p>
-              Tem gente que curte as mesmas coisas que voce, mas voces nunca
+              Tem gente que curte as mesmas coisas que você, mas vocês nunca
               se encontram.
             </p>
           </div>
@@ -77,10 +77,10 @@ export default function ProblemSection() {
             <div className="problem-icon">
               <MessageSquare size={28} />
             </div>
-            <h3>Conexoes que nao continuam</h3>
+            <h3>Conexões que não continuam</h3>
             <p>
-              Voce troca um oi e nunca mais ve a pessoa. O evento termina e
-              a conexao tambem.
+              Você troca um oi e nunca mais vê a pessoa. O evento termina e
+              a conexão também.
             </p>
           </div>
         </div>

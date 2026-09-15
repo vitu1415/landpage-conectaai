@@ -18,6 +18,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container container">
         <a href="#" className="navbar-logo">
+          <img src="/src/assets/logo.png" alt="ConectaAi Logo" className="navbar-logo-image" />
           <span className="logo-conecta">Conecta</span>
           <span className="logo-ai">Ai</span>
         </a>
@@ -25,7 +26,6 @@ export default function Navbar() {
         <div className={`navbar-links ${isOpen ? 'open' : ''}`}>
           <a href="#como-funciona" onClick={() => setIsOpen(false)}>Como funciona</a>
           <a href="#funcionalidades" onClick={() => setIsOpen(false)}>Funcionalidades</a>
-          <a href="#eventos" onClick={() => setIsOpen(false)}>Eventos</a>
           <a href="#organizadores" onClick={() => setIsOpen(false)}>Para eventos</a>
           <a href="#faq" onClick={() => setIsOpen(false)}>FAQ</a>
           <a href="#waitlist" className="navbar-cta" onClick={() => setIsOpen(false)}>

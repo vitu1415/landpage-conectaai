@@ -7,7 +7,7 @@ const features = [
     icon: Rss,
     title: 'Feed do evento',
     description:
-      'Veja o que esta acontecendo, compartilhe momentos, comentarios e interacoes.',
+      'Veja o que está acontecendo, compartilhe momentos, comentários e interações.',
     color: 'var(--turquesa)',
   },
   {
@@ -19,9 +19,9 @@ const features = [
   },
   {
     icon: Link2,
-    title: 'Conexoes',
+    title: 'Conexões',
     description:
-      'Envie solicitacoes e construa novas conexoes com quem combina com voce.',
+      'Envie solicitações e construa novas conexões com quem combina com você.',
     color: 'var(--laranja)',
   },
   {
@@ -35,14 +35,14 @@ const features = [
     icon: MessageSquare,
     title: 'Chat',
     description:
-      'Continue a conversa depois de criar uma conexao.',
+      'Continue a conversa depois de criar uma conexão.',
     color: 'var(--roxo)',
   },
   {
     icon: Calendar,
     title: 'Agenda',
     description:
-      'Descubra atividades, atracoes e momentos importantes do evento.',
+      'Descubra atividades, atrações e momentos importantes do evento.',
     color: 'var(--laranja)',
   },
 ];
@@ -72,12 +72,12 @@ export default function Features() {
     <section className="features" id="funcionalidades" ref={sectionRef}>
       <div className="container">
         <h2 className="section-title animate-on-scroll">
-          Tudo que voce precisa para{' '}
+          Tudo que você precisa para{' '}
           <span className="features-highlight">viver o evento</span>
         </h2>
 
         <p className="section-subtitle animate-on-scroll">
-          Funcionalidades pensadas para tornar sua experiencia no evento mais
+          Funcionalidades pensadas para tornar sua experiência no evento mais
           social, divertida e conectada.
         </p>
 

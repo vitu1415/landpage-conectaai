@@ -5,7 +5,7 @@ import './ForOrganizers.css';
 const benefits = [
   {
     icon: Users,
-    title: 'Maior interacao',
+    title: 'Maior interação',
     description: 'Participantes interagem mais entre si durante todo o evento.',
   },
   {
@@ -16,12 +16,12 @@ const benefits = [
   {
     icon: TrendingUp,
     title: 'Mais engajamento',
-    description: 'Publicacoes, comentarios e interacoes aumentam a retencao.',
+    description: 'Publicações, comentários e interações aumentam a retenção.',
   },
   {
     icon: BarChart3,
     title: 'Dados valiosos',
-    description: 'Entenda os interesses e comportamentos da sua audiencia.',
+    description: 'Entenda os interesses e comportamentos da sua audiência.',
   },
 ];
 
@@ -57,8 +57,8 @@ export default function ForOrganizers() {
               <span className="org-highlight">evento?</span>
             </h2>
             <p className="organizers-subtitle">
-              O ConectaAi nao so melhora a experiencia dos participantes —
-              tambem traz beneficios reais para quem produz o evento.
+              O ConectaAi não só melhora a experiência dos participantes —
+              também traz benefícios reais para quem produz o evento.
             </p>
           </div>
 

@@ -120,7 +120,7 @@ export default function AdminPage() {
                   <th>#</th>
                   <th>Email</th>
                   <th>Data</th>
-                  <th>Horario</th>
+                  <th>Horário</th>
                 </tr>
               </thead>
               <tbody>

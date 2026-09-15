@@ -7,7 +7,7 @@ const phases = [
     icon: Search,
     phase: 'ANTES',
     title: 'Descubra',
-    description: 'Descubra pessoas e interesses antes do evento comecar.',
+    description: 'Descubra pessoas e interesses antes do evento começar.',
     color: 'var(--turquesa)',
   },
   {
@@ -21,7 +21,7 @@ const phases = [
     icon: ArrowRightLeft,
     phase: 'DEPOIS',
     title: 'Mantenha',
-    description: 'Continue as conversas, mantenha as conexoes e guarde suas histórias.',
+    description: 'Continue as conversas, mantenha as conexões e guarde suas histórias.',
     color: 'var(--laranja)',
   },
 ];
@@ -51,12 +51,12 @@ export default function EcoSystem() {
     <section className="ecosystem" ref={sectionRef}>
       <div className="container">
         <h2 className="section-title animate-on-scroll">
-          O evento nao para quando a{' '}
-          <span className="eco-highlight">musica para.</span>
+          O evento não para quando a{' '}
+          <span className="eco-highlight">música para.</span>
         </h2>
 
         <p className="section-subtitle animate-on-scroll">
-          O ConectaAi acompanha toda a sua experiencia — antes, durante e
+          O ConectaAi acompanha toda a sua experiência — antes, durante e
           depois do evento.
         </p>
 

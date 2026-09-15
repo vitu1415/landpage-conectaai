@@ -86,14 +86,14 @@ export default function Hero() {
                 <div className="phone-notification notif-1">
                   <div className="notif-avatar notif-avatar-1"></div>
                   <div className="notif-content">
-                    <strong>Maria e mais 3 pessoas</strong> estao no mesmo evento
+                    <strong>Maria e mais 3 pessoas</strong> estão no mesmo evento
                   </div>
                 </div>
 
                 <div className="phone-notification notif-2">
                   <div className="notif-avatar notif-avatar-2"></div>
                   <div className="notif-content">
-                    <strong>Novo match!</strong> Voce e Lucas gostam de eletronica
+                    <strong>Novo match!</strong> Você e Lucas gostam de eletrônica
                   </div>
                 </div>
 
@@ -107,7 +107,7 @@ export default function Hero() {
                 <div className="phone-notification notif-4">
                   <div className="notif-avatar notif-avatar-4"></div>
                   <div className="notif-content">
-                    <strong>Grupo:</strong> Galera do Festival esta online
+                    <strong>Grupo:</strong> Galera do Festival está online
                   </div>
                 </div>
               </div>

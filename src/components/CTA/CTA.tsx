@@ -39,7 +39,7 @@ export default function CTA() {
     const result = saveEmail(email);
 
     if (result === null) {
-      setError('Esse e-mail ja esta na lista!');
+      setError('Esse e-mail já está na lista!');
       return;
     }
 
@@ -57,7 +57,7 @@ export default function CTA() {
       <div className="container">
         <div className="cta-content animate-on-scroll">
           <h2 className="cta-title">
-            Seu proximo evento{' '}
+            Seu próximo evento{' '}
             <span className="cta-highlight">pode ser diferente.</span>
           </h2>
 
@@ -89,9 +89,9 @@ export default function CTA() {
               <div className="success-icon">
                 <Check size={24} />
               </div>
-              <h3>Voce esta na lista!</h3>
+              <h3>Você está na lista!</h3>
               <p>
-                Entraremos em contato assim que o ConectaAi estiver disponivel.
+                Entraremos em contato assim que o ConectaAi estiver disponível.
               </p>
             </div>
           )}
@@ -104,7 +104,10 @@ export default function CTA() {
           )}
 
           <p className="cta-note">
-            Vamos enviar apenas novidades sobre o lancamento do ConectaAi.
+            {count > 0
+              ? `${count} pessoa${count > 1 ? 's' : ''} já na fila. `
+              : ''}
+            Vamos enviar apenas novidades sobre o lançamento do ConectaAi.
           </p>
         </div>
       </div>

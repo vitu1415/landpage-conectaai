@@ -5,9 +5,6 @@ import ProblemSection from './components/ProblemSection/ProblemSection';
 import SolutionSection from './components/SolutionSection/SolutionSection';
 import HowItWorks from './components/HowItWorks/HowItWorks';
 import Features from './components/Features/Features';
-import ConnectionsSection from './components/ConnectionsSection/ConnectionsSection';
-import EventExperience from './components/EventExperience/EventExperience';
-import ConnectionsReal from './components/ConnectionsReal/ConnectionsReal';
 import EcoSystem from './components/EcoSystem/EcoSystem';
 import ForOrganizers from './components/ForOrganizers/ForOrganizers';
 import CTA from './components/CTA/CTA';
@@ -24,9 +21,6 @@ function LandingPage() {
       <SolutionSection />
       <HowItWorks />
       <Features />
-      <ConnectionsSection />
-      <EventExperience />
-      <ConnectionsReal />
       <EcoSystem />
       <ForOrganizers />
       <CTA />

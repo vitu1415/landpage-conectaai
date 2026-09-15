@@ -7,7 +7,7 @@ const steps = [
     icon: LogIn,
     number: '01',
     title: 'Entre no evento',
-    description: 'Escolha o evento que voce esta participando.',
+    description: 'Escolha o evento que você está participando.',
     color: 'var(--turquesa)',
   },
   {
@@ -22,7 +22,7 @@ const steps = [
     number: '03',
     title: 'Conecte-se',
     description:
-      'Encontre pessoas com interesses parecidos e envie uma solicitacao de conexao.',
+      'Encontre pessoas com interesses parecidos e envie uma solicitação de conexão.',
     color: 'var(--laranja)',
   },
   {
@@ -30,7 +30,7 @@ const steps = [
     number: '04',
     title: 'Viva o evento',
     description:
-      'Converse, participe e transforme encontros presenciais em conexoes reais.',
+      'Converse, participe e transforme encontros presenciais em conexões reais.',
     color: 'var(--turquesa)',
   },
 ];
@@ -64,7 +64,7 @@ export default function HowItWorks() {
         </h2>
 
         <p className="section-subtitle animate-on-scroll">
-          Em quatro passos simples, voce esta pronto para viver o evento de
+          Em quatro passos simples, você está pronto para viver o evento de
           um jeito completamente novo.
         </p>
 
