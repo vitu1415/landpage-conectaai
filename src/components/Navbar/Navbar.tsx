@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container container">
         <a href="#" className="navbar-logo">
-          <img src="/src/assets/logo.png" alt="ConectaAi Logo" className="navbar-logo-image" />
+          <img src="/src/assets/logo.png" className="navbar-logo-image" />
           <span className="logo-conecta">Conecta</span>
           <span className="logo-ai">Ai</span>
         </a>
