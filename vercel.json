@@ -5,10 +5,6 @@
       "destination": "https://landpage-conectaai.vercel.app/"
     },
     {
-      "source": "/admin",
-      "destination": "https://landpage-conectaai.vercel.app/admin"
-    },
-    {
       "source": "/(.*)",
       "destination": "https://conecta-ai-front-vrs.vercel.app/$1"
     }

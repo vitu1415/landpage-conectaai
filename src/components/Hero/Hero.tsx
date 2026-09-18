@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { ArrowRight, Sparkles, Users, MessageCircle, Zap } from 'lucide-react';
+import { ArrowRight, Users, MessageCircle, Zap } from 'lucide-react';
 import './Hero.css';
 
 export default function Hero() {
@@ -33,11 +33,6 @@ export default function Hero() {
 
       <div className="hero-content container">
         <div className="hero-text">
-          <div className="hero-badge animate-on-scroll">
-            <Sparkles size={14} />
-            <span>Lançamento em breve</span>
-          </div>
-
           <h1 className="hero-title animate-on-scroll">
             O evento acontece ao vivo.<br />
             <span className="hero-highlight">A conexão também.</span>
@@ -49,12 +44,9 @@ export default function Hero() {
           </p>
 
           <div className="hero-ctas animate-on-scroll">
-            <a href="#waitlist" className="btn-primary">
+            <a href="#como-funciona" className="btn-primary">
               <span>Quero conhecer o ConectaAi</span>
               <ArrowRight size={18} />
-            </a>
-            <a href="#como-funciona" className="btn-secondary">
-              Como funciona
             </a>
           </div>
 
