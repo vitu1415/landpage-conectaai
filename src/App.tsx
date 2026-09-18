@@ -34,8 +34,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/admin" element={<AdminPage />} />
+        <Route path="home/" element={<LandingPage />} />
+        <Route path="home/admin" element={<AdminPage />} />
       </Routes>
     </BrowserRouter>
   );
