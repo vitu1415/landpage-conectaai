@@ -6,7 +6,7 @@
     },
     {
       "source": "/app/(.*)",
-      "destination": "https://conecta-ai-front-vrs.vercel.app/app"
+      "destination": "https://conecta-ai-front-vrs.vercel.app/app/$1"
     },
     {
       "source": "/(.*)",
