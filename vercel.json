@@ -1,12 +1,16 @@
 {
   "rewrites": [
     {
+      "source": "/app",
+      "destination": "https://conecta-ai-front-vrs.vercel.app/app"
+    },
+    {
       "source": "/app/(.*)",
       "destination": "https://conecta-ai-front-vrs.vercel.app/app"
     },
     {
       "source": "/(.*)",
       "destination": "/index.html"
-    }
+    } 
   ]
 }
