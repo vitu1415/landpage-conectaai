@@ -29,8 +29,8 @@ export default function Navbar() {
           <a href="#funcionalidades" onClick={() => setIsOpen(false)}>Funcionalidades</a>
           <a href="#organizadores" onClick={() => setIsOpen(false)}>Para eventos</a>
           <a href="#faq" onClick={() => setIsOpen(false)}>FAQ</a>
-          <a href="#waitlist" className="navbar-cta" onClick={() => setIsOpen(false)}>
-            Entrar na lista
+          <a href="https://conectaai.app.br/app" className="navbar-cta" onClick={() => setIsOpen(false)}>
+            Entrar
           </a>
         </div>
 
